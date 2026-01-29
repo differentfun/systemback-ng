@@ -1,0 +1,5 @@
+# One path per line. Comments start with '#'.
+# If this file has entries, ONLY those paths are backed up (plus subdirs).
+# Example:
+# /home
+# /etc

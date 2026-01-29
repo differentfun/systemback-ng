@@ -1,0 +1,17 @@
+# One path per line. Comments start with '#'.
+# Excludes are absolute paths (e.g. /var/cache).
+# If includes list is NOT empty, only included paths are backed up.
+/proc
+/sys
+/dev
+/run
+/tmp
+/mnt
+/media
+/var/tmp
+/var/cache
+/var/log
+/var/lib/systemback-ng
+/var/lib/lxcfs
+/var/lib/samba/winbindd_privileged/pipe
+/home/*/.cache

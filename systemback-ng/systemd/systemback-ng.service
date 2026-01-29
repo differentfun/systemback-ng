@@ -1,0 +1,6 @@
+[Unit]
+Description=Systemback-ng scheduled backup
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemback-ng backup --label auto

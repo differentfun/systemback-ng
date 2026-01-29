@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime state
+*.sqlite
+*.db
+systemback-ng/core/__pycache__/
+systemback-ng/ui/__pycache__/
+
+# Snapshots and ISO outputs (avoid committing large binaries)
+*.tar.zst
+*.tar.zst.sha256
+*.iso
+
+# Temporary work
+*.tmp
+*.swp
+*~
